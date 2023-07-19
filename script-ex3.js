@@ -24,10 +24,10 @@ function check(){
     var msg = document.getElementById("return")
     var conta = number1+number2
     if(anwser == conta){
-        msg.innerHTML="Você acertou a resposta. Parabéns"
+        msg.innerHTML="Você acertou a resposta. Parabéns!"
     }
     else{
-        msg.innerHTML = `Você errou a resposta. Esta conta dá igual a ${conta}!!!`
+        msg.innerHTML = `Você errou :(`
     }
     // switch(res = conta){
     //     case true:
@@ -50,4 +50,10 @@ function check(){
 
 function again(){
     window.location.reload();
+}
+
+function show(){
+    var conta = number1+number2
+    var mostra = document.getElementById("show")
+    mostra.innerHTML =`A resposta é ${conta}.`
 }
