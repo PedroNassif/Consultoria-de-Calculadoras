@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consltoria-de-calculador.Inc</title>
+    <link rel="stylesheet" href="estilo-ex3.css">
+</head>
+<body>
+    <header>
+        <h1>Consultor de Calculadoras</h1>
+    </header>
+    <section>
+        <div class = "question">
+            Olá, você se acha apto para fazer contas? Prove ... 
+        </div>
+        
+        <button id="press" type="button" onclick ="gerar()"> Gerar números</button>
+
+        <div class = "question" id = "ask"> </div>
+
+        <!-- <form onsubmit="check()" > -->
+            <div class = "single-input">
+            <input required type="number" id="resposta" name = "res" class="input"> 
+            <label for=resposta>Resposta</label>
+            </div>
+        <!-- <form> -->
+
+        <button  onclick="check()"> Verificar </button>
+            
+        <div class = "question" id = "return"></div>
+
+        <button  onclick="again()"> Tente de novo :/ </button>
+          
+    </section>
+
+    <footer>
+        <p>&copy; Curso de JS</p>
+    </footer>
+
+    <script src="script-ex3.js"></script>
+</body>
+    </html>
