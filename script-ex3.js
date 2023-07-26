@@ -5,8 +5,8 @@ function getRandomIntInclusive(min, max) {
 
 }
 
-var number1 = getRandomIntInclusive(0,10) 
-var number2 = getRandomIntInclusive(0,10)
+var number1 = getRandomIntInclusive(0,10000000) 
+var number2 = getRandomIntInclusive(0,10000000)
 
 function gerar(){
     
